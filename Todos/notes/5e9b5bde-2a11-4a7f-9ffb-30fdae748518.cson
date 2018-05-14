@@ -1,0 +1,40 @@
+createdAt: "2018-05-14T05:37:40.110Z"
+updatedAt: "2018-05-14T05:59:22.784Z"
+type: "MARKDOWN_NOTE"
+folder: "36e27b2c3cef90b87c5a"
+title: "Work progress for NC/Sterile"
+content: '''
+  # Work progress for NC/Sterile
+  
+  The goal is to make the Feldman-Cousins corrections for FHC data (Run Period 1/2/3) in time for Neutrino 2018.
+  
+  ## May 10th, 2018
+  - [x] Write code to run the FC correction at a single point on the 2D grid. Few cautions:
+    - [x] Be careful in handling the systematics.
+    - [x] Take random seeds to be runtime t-naught so making sure the random numbers are actually random numbers.
+    - [x] Output results of dchi2 (from both fits) and the parameters obtained from the fits need to be save to a ROOT file for later diagnosis.  
+  - [x] Testing the single-point code to see if you can retrive the dchi2 distribution.
+    - [x] Commit the working version.
+    - [x] Shit! The run time is too long (8 hours for 100 pseudo-experiments).
+    - [x] All distributions looks normal.
+  
+  ## May 11th, 2018
+  - [x] Report work to Jeremy/Gavin.
+  - [x] Move on to write the code to receive the command-line arguments and run the single-point FC correction.
+    - [x] Keep the code as general as possible. So you don't have to rewrite it later.
+    - [x] Commit the working version. Need test though.
+  
+  ## May 14th, 2018
+  - [x] Ask Jeremy to give you the surface TH2D files.
+  - [ ] Implement to snippet to read surface and return values of oscillation parameters to run jobs.
+  
+'''
+tags: [
+  "nus18"
+  "fc"
+  "feldman-cousins"
+  "nc"
+  "sterile"
+]
+isStarred: false
+isTrashed: false
