@@ -1,0 +1,37 @@
+createdAt: "2018-05-14T15:51:53.665Z"
+updatedAt: "2018-05-14T16:11:01.808Z"
+type: "MARKDOWN_NOTE"
+folder: "1e2b9fc63bd9a422c26f"
+title: "Cerenkov Counter R&D Plan"
+content: '''
+  # Cerenkov Counter R&D Plan
+  List of deadlines
+  - [ ] Energy loss study: May 18th, 2018.
+  - [ ] Optical simulation: May 25th, 2018.
+  - [ ] Complete FreeCAD design: May 31st, 2018.
+  - [ ] Material preparing: June 20th, 2018.
+  - [ ] Building: July 31th, 2018.
+  - [ ] Testing: August 15th, 2018.
+  - [ ] Shipping: October 14th, 2018.
+  - [ ] Testign at FNAL: October 20th, 2018.
+  - [ ] Start commissioning: October 21st, 2018.
+  
+  ---
+  
+  ## May 14, 2018
+  Energy loss study
+  - [ ] Implement `G4Analysis` to analysis the beam loss at different energies and different particles.
+  - [ ] Study energy binning schemes.
+  
+  Plot to make
+  - [ ] Energy loss (in MeV) in terms of incoming energy (in MeV), each plot for a different particle.
+  - [ ] Percentage of energy loss in terms of incoming energy (in MeV), each plot for a different particle.
+  - [ ] Number of particle loss due to the small size of TOF in terms of incoming energy (in MeV), each plot for a different particle.
+  
+'''
+tags: [
+  "cerenkov"
+  "r&d"
+]
+isStarred: false
+isTrashed: false

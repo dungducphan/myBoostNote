@@ -9,6 +9,11 @@
       "key": "36e27b2c3cef90b87c5a",
       "color": "#B013A4",
       "name": "NOvA-NC/Sterile"
+    },
+    {
+      "key": "1e2b9fc63bd9a422c26f",
+      "color": "#FF8E00",
+      "name": "NOvA-TestBeam"
     }
   ],
   "version": "1.0"
