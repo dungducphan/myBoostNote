@@ -14,6 +14,16 @@
       "key": "1e2b9fc63bd9a422c26f",
       "color": "#FF8E00",
       "name": "NOvA-TestBeam"
+    },
+    {
+      "key": "015829fcb8195d3f86ee",
+      "color": "#0F8E00",
+      "name": "Thesis"
+    },
+    {
+      "key": "e82c60f64cdd7f513601",
+      "color": "#30D5C8",
+      "name": "Mics"
     }
   ],
   "version": "1.0"

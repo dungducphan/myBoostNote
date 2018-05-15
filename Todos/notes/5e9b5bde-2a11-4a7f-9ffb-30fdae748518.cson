@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T05:37:40.110Z"
-updatedAt: "2018-05-14T05:59:22.784Z"
+updatedAt: "2018-05-15T04:25:56.419Z"
 type: "MARKDOWN_NOTE"
 folder: "36e27b2c3cef90b87c5a"
 title: "Work progress for NC/Sterile"
@@ -26,8 +26,15 @@ content: '''
   
   ## May 14th, 2018
   - [x] Ask Jeremy to give you the surface TH2D files.
-  - [ ] Implement to snippet to read surface and return values of oscillation parameters to run jobs.
+  - [x] Implement to snippet to read surface and return values of oscillation parameters to run jobs.
+  - [x] Test the binning scheme.
+  - [x] Double check with bin coverage (on top of the ssth24/ssth34-dmsq41 surfaces).
+  - [ ] Write and send test jobs on FermiGrid.
   
+  ## May 15th, 2018
+  - [ ] Check test jobs.
+  - [ ] Start studying the job division to lower the runtime for individual jobs.
+  - [ ] Send production jobs.
 '''
 tags: [
   "nus18"

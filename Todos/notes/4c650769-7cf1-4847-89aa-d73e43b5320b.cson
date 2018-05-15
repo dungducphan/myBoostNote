@@ -1,0 +1,29 @@
+createdAt: "2018-05-14T20:35:21.676Z"
+updatedAt: "2018-05-14T20:46:53.192Z"
+type: "MARKDOWN_NOTE"
+folder: "015829fcb8195d3f86ee"
+title: "Thesis Plan"
+content: '''
+  # Thesis Plan
+  
+  Goals, plans for PhD thesis.
+  
+  ### Keep updating this outline
+  List of writing deadlines 
+  - [ ] Introduction
+    - [ ] Weak-interaction Physics
+    - [ ] Neutrino and Neutrino Oscillation
+    - [ ] Baryogenesis Problem
+      - [ ] Conditions for baryogenesis and leptopn genesis
+      - [ ] Models of barygenesis
+      - [ ] B-L conservation versus non-conservation
+    - [ ] Neutron oscillation and its implications
+      - [ ] Free neutron
+      - [ ] Bound neutron and the nuclear suppresion factor
+  - [ ] 
+'''
+tags: [
+  "thesis"
+]
+isStarred: false
+isTrashed: false

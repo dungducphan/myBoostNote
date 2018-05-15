@@ -1,0 +1,21 @@
+createdAt: "2018-05-14T22:01:27.653Z"
+updatedAt: "2018-05-14T22:08:16.012Z"
+type: "MARKDOWN_NOTE"
+folder: "e82c60f64cdd7f513601"
+title: "Mics To-dos"
+content: '''
+  # Mics To-dos
+  
+  
+  ## May 14th, 2018
+  - [ ] Write python modules to simplify the root drawings.
+  - [ ] Learn to write python class.
+  - [ ] Learn `G4Analysis`.
+  - [ ] Quantum machanics. Chapter 1 (S. Weinberg).
+'''
+tags: [
+  "python"
+  "root"
+]
+isStarred: false
+isTrashed: false

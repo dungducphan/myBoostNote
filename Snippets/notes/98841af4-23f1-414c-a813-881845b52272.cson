@@ -1,0 +1,33 @@
+createdAt: "2018-05-15T03:53:10.193Z"
+updatedAt: "2018-05-15T03:57:36.717Z"
+type: "MARKDOWN_NOTE"
+folder: "bf333d4304485b035df5"
+title: "`"
+content: '''
+  ```
+  ps aux
+  
+  USER       PID  %CPU %MEM  VSZ RSS     TTY   STAT START   TIME COMMAND
+  timothy  29217  0.0  0.0 11916 4560 pts/21   S+   08:15   0:00 pine  
+  root     29505  0.0  0.0 38196 2728 ?        Ss   Mar07   0:00 sshd: can [priv]   
+  can      29529  0.0  0.0 38332 1904 ?        S    Mar07   0:00 sshd: can@notty  
+  ```
+  > USER = user owning the process
+  > PID = process ID of the process
+  > %CPU = It is the CPU time used divided by the time the process has been running.
+  > %MEM = ratio of the process’s resident set size to the physical memory on the machine
+  > VSZ = virtual memory usage of entire process (in KiB)
+  > RSS = resident set size, the non-swapped physical memory that a task has used (in KiB)
+  > TTY = controlling tty (terminal)
+  > STAT = multi-character process state
+  > START = starting time or date of the process
+  > TIME = cumulative CPU time
+  > COMMAND = command with all its arguments
+  
+'''
+tags: [
+  "ps-aux"
+  "bash"
+]
+isStarred: false
+isTrashed: false
