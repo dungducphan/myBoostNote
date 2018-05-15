@@ -1,0 +1,49 @@
+createdAt: "2018-05-15T22:31:40.932Z"
+updatedAt: "2018-05-15T22:34:21.190Z"
+type: "SNIPPET_NOTE"
+folder: "2ee3873e20b241348088"
+title: "Type conversion from A and B."
+description: "Type conversion from A and B."
+snippets: [
+  {
+    name: "a2b.h"
+    mode: "C"
+    content: '''
+      #include <sstream>
+      
+      template<typename A, typename B>
+      bool A2B(A& a, B& b) {
+      	std::stringstream ss;
+      	ss << a;
+      	if(ss >> b) return 1;
+      	else return 0;
+      }
+    '''
+  }
+  {
+    name: "Usage"
+    mode: "C++"
+    content: '''
+      #include <iostream>
+      #include <string>
+      
+      #include "a2b.h"
+      
+      int main() {
+      	std::string s = "1.1";
+      	double d;
+      	if(A2B(s,d)) std::cout << "Type conversion successful\\n";
+      	else std::cout << "Could not convert\\n";
+      	std::string s2;
+      	if(A2B(d,s2)) std::cout << "Type conversion successful\\n";
+      	else std::cout << "Could not convert\\n";
+      	return 0;
+      }
+    '''
+  }
+]
+tags: [
+  "type-conversion"
+]
+isStarred: false
+isTrashed: false

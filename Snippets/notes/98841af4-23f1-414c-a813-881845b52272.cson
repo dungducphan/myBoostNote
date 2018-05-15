@@ -1,9 +1,11 @@
 createdAt: "2018-05-15T03:53:10.193Z"
-updatedAt: "2018-05-15T03:57:36.717Z"
+updatedAt: "2018-05-15T04:29:53.861Z"
 type: "MARKDOWN_NOTE"
 folder: "bf333d4304485b035df5"
-title: "`"
+title: "Output of ps aux"
 content: '''
+  ## Output of `ps aux`
+  
   ```
   ps aux
   

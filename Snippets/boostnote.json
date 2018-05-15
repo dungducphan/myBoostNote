@@ -7,8 +7,13 @@
     },
     {
       "key": "bf333d4304485b035df5",
-      "color": "#3FD941",
+      "color": "#8CA901",
       "name": "Bashscript"
+    },
+    {
+      "key": "2ee3873e20b241348088",
+      "color": "#E10051",
+      "name": "C/C++"
     }
   ],
   "version": "1.0"

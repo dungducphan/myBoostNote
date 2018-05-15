@@ -1,0 +1,32 @@
+createdAt: "2018-05-15T22:35:16.141Z"
+updatedAt: "2018-05-15T22:37:04.486Z"
+type: "SNIPPET_NOTE"
+folder: "2ee3873e20b241348088"
+title: "Return array size"
+description: "Return array size"
+snippets: [
+  {
+    name: "arraysize"
+    mode: "C++"
+    content: '''
+      template <typename T, std::size_t S> 
+      inline constexpr std::size_t arraysize(T (&)[S]) { return S; }
+    '''
+  }
+  {
+    name: "Usage"
+    mode: "C++"
+    content: '''
+      const int foo[] = {1,2,3,4,5};
+      int* bar = new int[100];
+      
+      std::cout << arraysize(foo) << std::endl; // prints 5
+      std::cout << arraysize(bar) << std::endl; // compiler error - not an array 
+    '''
+  }
+]
+tags: [
+  "array-size"
+]
+isStarred: false
+isTrashed: false

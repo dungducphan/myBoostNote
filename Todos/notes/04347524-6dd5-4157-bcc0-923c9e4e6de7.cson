@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T15:51:53.665Z"
-updatedAt: "2018-05-14T16:11:01.808Z"
+updatedAt: "2018-05-15T22:46:34.425Z"
 type: "MARKDOWN_NOTE"
 folder: "1e2b9fc63bd9a422c26f"
 title: "Cerenkov Counter R&D Plan"
@@ -13,12 +13,12 @@ content: '''
   - [ ] Building: July 31th, 2018.
   - [ ] Testing: August 15th, 2018.
   - [ ] Shipping: October 14th, 2018.
-  - [ ] Testign at FNAL: October 20th, 2018.
+  - [ ] Testing at FNAL: October 20th, 2018.
   - [ ] Start commissioning: October 21st, 2018.
   
   ---
   
-  ## May 14, 2018
+  ## May 15, 2018
   Energy loss study
   - [ ] Implement `G4Analysis` to analysis the beam loss at different energies and different particles.
   - [ ] Study energy binning schemes.
@@ -27,7 +27,6 @@ content: '''
   - [ ] Energy loss (in MeV) in terms of incoming energy (in MeV), each plot for a different particle.
   - [ ] Percentage of energy loss in terms of incoming energy (in MeV), each plot for a different particle.
   - [ ] Number of particle loss due to the small size of TOF in terms of incoming energy (in MeV), each plot for a different particle.
-  
 '''
 tags: [
   "cerenkov"

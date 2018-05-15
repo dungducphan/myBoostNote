@@ -1,0 +1,58 @@
+createdAt: "2018-05-15T22:29:17.953Z"
+updatedAt: "2018-05-15T22:34:40.436Z"
+type: "SNIPPET_NOTE"
+folder: "2ee3873e20b241348088"
+title: "Read data file in C/C++"
+description: "Read data file in C/C++"
+snippets: [
+  {
+    name: "read_file.h"
+    mode: "C"
+    content: '''
+      #include <string>
+      #include <vector>
+      #include <fstream>
+      
+      std::vector<std::string> ReadFile(const std::string& filename, const bool& KeepEmpty = 0, const char& delimiter = '\\n') {
+      	std::vector<std::string> result;
+      
+      	std::ifstream ifs(filename.c_str());
+      	if(!ifs) return result;
+      
+      	while(ifs.good()) {
+      		static std::string line;
+      		std::getline(ifs,line, delimiter);
+      		if(line.empty() && !KeepEmpty);
+      		else result.push_back(line);
+      	}
+      
+      	return result;
+      }
+    '''
+  }
+  {
+    name: "Usage"
+    mode: "C++"
+    content: '''
+      #include <iostream>
+      #include <string>
+      #include <vector>
+      
+      #include "read_file.h"
+      
+      int main() {
+      	auto file = ReadFile("main.cpp", 0); // file = main.cpp | Don't keep empty lines, delimiter is default as new line
+      	for(auto f : file) {
+      		std::cout << f << std::endl;
+      	}
+      	return 0;
+      }
+    '''
+  }
+]
+tags: [
+  "read"
+  "fstream"
+]
+isStarred: false
+isTrashed: false

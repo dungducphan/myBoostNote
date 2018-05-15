@@ -1,0 +1,19 @@
+createdAt: "2018-05-15T22:59:26.853Z"
+updatedAt: "2018-05-15T23:02:40.945Z"
+type: "MARKDOWN_NOTE"
+folder: "e82c60f64cdd7f513601"
+title: "Markdown"
+content: '''
+  # Markdown
+  
+  ## Collections of materials on `markdown`
+  - [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
+  
+'''
+tags: [
+  "reading-assignment"
+  "markdown"
+  "tech"
+]
+isStarred: false
+isTrashed: false

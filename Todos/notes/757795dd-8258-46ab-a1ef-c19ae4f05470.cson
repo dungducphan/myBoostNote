@@ -1,0 +1,22 @@
+createdAt: "2018-05-15T22:53:20.649Z"
+updatedAt: "2018-05-15T23:04:11.081Z"
+type: "MARKDOWN_NOTE"
+folder: "2fe0380cc0d9e720a3de"
+title: "Goals:"
+content: '''
+  Goals:
+  - Understand the atmospheric neutrino.
+  - Calculating/Generate atmospheric neutrino flux for NOvA.
+  
+  ## May 15th, 2018
+  - [ ] Read [this paper](https://arxiv.org/pdf/1704.02892.pdf) and write a short (1000 words) summary. If possible, try to install/run/replicate the results in the paper.
+  - [ ] Read [this classic paper](http://cds.cern.ch/record/545258/files/0203272.pdf) on the atmosphetic neutrino flux.
+  
+  If have more time, read [this paper](https://arxiv.org/pdf/hep-ph/0604182.pdf). It mentions the three-flavor calculation of neutrino oscillation probabilities.
+'''
+tags: [
+  "atmospheric-neutrino-flux"
+  "nnbar"
+]
+isStarred: false
+isTrashed: false

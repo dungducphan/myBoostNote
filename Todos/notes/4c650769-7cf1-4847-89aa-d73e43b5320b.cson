@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T20:35:21.676Z"
-updatedAt: "2018-05-14T20:46:53.192Z"
+updatedAt: "2018-05-15T22:58:54.040Z"
 type: "MARKDOWN_NOTE"
 folder: "015829fcb8195d3f86ee"
 title: "Thesis Plan"
@@ -7,6 +7,10 @@ content: '''
   # Thesis Plan
   
   Goals, plans for PhD thesis.
+  
+  ### PhD Candidacy Advancement Form
+  - [x] Write proposal.
+  - [ ] Send and wait for approval. 
   
   ### Keep updating this outline
   List of writing deadlines 
@@ -20,7 +24,6 @@ content: '''
     - [ ] Neutron oscillation and its implications
       - [ ] Free neutron
       - [ ] Bound neutron and the nuclear suppresion factor
-  - [ ] 
 '''
 tags: [
   "thesis"
