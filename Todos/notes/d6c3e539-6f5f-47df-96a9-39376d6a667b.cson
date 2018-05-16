@@ -1,0 +1,23 @@
+createdAt: "2018-05-15T23:18:16.615Z"
+updatedAt: "2018-05-16T07:17:59.856Z"
+type: "MARKDOWN_NOTE"
+folder: "2fe0380cc0d9e720a3de"
+title: "Literature Review"
+content: '''
+  # Literature Review 
+  
+  List of reading/learning materials for thesis.
+  
+  ## Thesis
+  - [ ] Jeremy's [thesis](http://lss.fnal.gov/archive/thesis/2000/fermilab-thesis-2017-27.pdf). Start from here
+  - [ ] NNbar search in SNO thesis is [here](https://sno.phy.queensu.ca/papers/MarcBergevinPhD.pdf).
+  
+  
+'''
+tags: [
+  "nnbar"
+  "literature-review"
+  "thesis"
+]
+isStarred: false
+isTrashed: false

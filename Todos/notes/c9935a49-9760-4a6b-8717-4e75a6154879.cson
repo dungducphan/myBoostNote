@@ -1,16 +1,24 @@
 createdAt: "2018-05-14T22:00:14.315Z"
-updatedAt: "2018-05-14T22:01:16.566Z"
+updatedAt: "2018-05-16T03:26:48.071Z"
 type: "MARKDOWN_NOTE"
 folder: "e82c60f64cdd7f513601"
-title: "Driving license"
+title: "Very Urgent"
 content: '''
-  # Driving license
+  # Very Urgent
+  List of urgent things that needs to be done today!
   
-  - [ ] Finish driversed course.
-  - [ ] Get certificate from the department of safety.
+  ## May 15th, 2018
+  - [x] Driving license
+  - [ ] Grading PHY 317K
+  - [ ] NC/Sterile
   
   
+  
+  ## May 18th, 2018
+  - [ ] Department of Safety to get the certificate
 '''
-tags: []
+tags: [
+  "very-urgent"
+]
 isStarred: true
 isTrashed: false

@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T05:37:40.110Z"
-updatedAt: "2018-05-15T22:49:01.954Z"
+updatedAt: "2018-05-16T07:14:36.717Z"
 type: "MARKDOWN_NOTE"
 folder: "36e27b2c3cef90b87c5a"
 title: "Work progress for NC/Sterile"
@@ -33,15 +33,26 @@ content: '''
   
   ## May 15th, 2018
   - [x] Check test jobs.
-  - [ ] Resent jobs [5:47PM]
-  > /fife/local/scratch/uploads/nova/dphan/2018-05-15_174538.871203_2938
-  > /fife/local/scratch/uploads/nova/dphan/2018-05-15_174538.871203_2938/analysis.sh_20180515_174539_2164483_0_1_.cmd
-  > submitting....
-  > Submitting job(s).....
-  > 5 job(s) submitted to cluster 7925969.
-  > JobsubJobId of first job: 7925969.0@jobsub02.fnal.gov
-  > Use job id 7925969.0@jobsub02.fnal.gov to retrieve output
-  - [ ] Check status of the above jobs.
+  - [x] Resent jobs [5:47PM]
+  
+  Error log of output
+  
+  > input_line_83:2:63: error: use of undeclared identifier 'fhc'
+   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
+                                                                ^
+  input_line_83:2:68: error: use of undeclared identifier 'th24vsdm41'
+   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
+                                                                     ^
+  input_line_83:2:80: error: use of undeclared identifier 'systs'
+   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
+                                                                                 ^
+  input_line_83:2:87: error: use of undeclared identifier 'both'
+   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
+                                                                                        ^
+  error: No files matched the source url.ifdh cp failed at: Tue May 15 23:56:07 2018
+  >
+  > Tue May 15 23:56:07 UTC 2018 ./analysis.sh COMPLETED with exit status 1
+  
   
   ## May 16th, 2018
   - [ ] Start studying the job division to lower the runtime for individual jobs.

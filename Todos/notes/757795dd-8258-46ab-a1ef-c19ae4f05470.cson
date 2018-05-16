@@ -1,9 +1,12 @@
 createdAt: "2018-05-15T22:53:20.649Z"
-updatedAt: "2018-05-15T23:04:11.081Z"
+updatedAt: "2018-05-15T23:18:10.341Z"
 type: "MARKDOWN_NOTE"
 folder: "2fe0380cc0d9e720a3de"
-title: "Goals:"
+title: "Atmospheric Neutrinos"
 content: '''
+  # Atmospheric Neutrinos
+  This will be the main background for neutron-antineutron oscillation search!
+  
   Goals:
   - Understand the atmospheric neutrino.
   - Calculating/Generate atmospheric neutrino flux for NOvA.
