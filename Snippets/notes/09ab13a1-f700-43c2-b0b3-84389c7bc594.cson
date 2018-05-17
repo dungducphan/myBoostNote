@@ -1,0 +1,50 @@
+createdAt: "2018-05-17T18:54:13.611Z"
+updatedAt: "2018-05-17T19:04:07.909Z"
+type: "MARKDOWN_NOTE"
+folder: "0dc90324c6699db40788"
+title: "Jobsub at FermiGRID"
+content: '''
+  ## Jobsub at FermiGRID
+  
+  - [Frequently Asked Questions - JobSub](https://cdcvs.fnal.gov/redmine/projects/jobsub/wiki/Frequently_Asked_Questions)
+  - List of `jobsub` commands
+  ```
+  jobsub_submit     -- submit a job  
+  jobsub_submit_dag -- submit a dag description of jobs
+  
+  jobsub_status     -- list OSG sites that are available to submit jobs to  
+  
+  jobsub_q          -- check status of jobs in queue (like condor_q)    
+  
+  jobsub_hold       -- hold jobs in queue   
+  jobsub_release    -- release held jobs   
+  jobsub_rm         -- remove jobs from queue  
+  
+  jobsub_fetchlog   -- retrieve job log files from jobsub_server
+  jobsub_history    -- check status of finished jobs (like conndor_history) 
+  ```
+  
+  ### Removing jobs
+  - Remove a set of jobs using constraints
+  ```
+  jobsub_q -G nova --constraint '(JobStatus=?=5)&&(Owner=?="dphan")'
+  ```
+  - For `JobStatus` the code is
+  ```
+  1 idle
+  2 running
+  3 removed
+  4 completed
+  5 held
+  ```
+  - Remove a set of jobs with same `jobid`
+  ```
+  jobsub_rm -G nova --jobid  532191.@fermicloud042.fnal.gov
+  ```
+  
+'''
+tags: [
+  "jobsub"
+]
+isStarred: false
+isTrashed: false

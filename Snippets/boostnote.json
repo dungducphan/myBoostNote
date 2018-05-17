@@ -14,6 +14,11 @@
       "key": "2ee3873e20b241348088",
       "color": "#E10051",
       "name": "C/C++"
+    },
+    {
+      "key": "0dc90324c6699db40788",
+      "color": "#2BA5F7",
+      "name": "FermiGRID"
     }
   ],
   "version": "1.0"

@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T15:51:53.665Z"
-updatedAt: "2018-05-15T23:11:41.590Z"
+updatedAt: "2018-05-17T18:45:30.498Z"
 type: "MARKDOWN_NOTE"
 folder: "1e2b9fc63bd9a422c26f"
 title: "Cerenkov Counter R&D Plan"
@@ -18,7 +18,7 @@ content: '''
   
   ---
   
-  ## May 15, 2018
+  ## May 17, 2018
   Energy loss study
   - [ ] Implement `G4Analysis` to analysis the beam loss at different energies and different particles.
   - [ ] Study energy binning schemes.
