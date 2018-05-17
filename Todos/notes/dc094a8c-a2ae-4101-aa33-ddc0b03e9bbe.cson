@@ -1,14 +1,20 @@
 createdAt: "2018-05-15T22:59:26.853Z"
-updatedAt: "2018-05-15T23:05:54.679Z"
+updatedAt: "2018-05-16T19:08:13.472Z"
 type: "MARKDOWN_NOTE"
 folder: "e82c60f64cdd7f513601"
-title: "Markdown"
+title: "Reading"
 content: '''
-  # Markdown
+  # Reading
   
   ## Collections of reading materials on `markdown`
   - [Daring Fireball: Markdown Basics](https://daringfireball.net/projects/markdown/basics)
   
+  
+  ## Algorithms to Learn
+  - [Important Algorithms to Start With](https://boostlog.io/@sonuton/important-algorithms-to-start-with-5a8e8127a7e5b7008ae1dab3)
+  
+  ## Is sand solid, liquid or gaseous?
+  - [Is sand a solid, a liquid, or a gas? - Massachusetts Institute of Technology (MIT)](https://www.facebook.com/MITnews/videos/1775783819131908/)
 '''
 tags: [
   "reading-assignment"

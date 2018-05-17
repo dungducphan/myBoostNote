@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T05:37:40.110Z"
-updatedAt: "2018-05-16T07:14:36.717Z"
+updatedAt: "2018-05-16T18:38:09.526Z"
 type: "MARKDOWN_NOTE"
 folder: "36e27b2c3cef90b87c5a"
 title: "Work progress for NC/Sterile"
@@ -35,26 +35,22 @@ content: '''
   - [x] Check test jobs.
   - [x] Resent jobs [5:47PM]
   
-  Error log of output
-  
-  > input_line_83:2:63: error: use of undeclared identifier 'fhc'
-   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
-                                                                ^
-  input_line_83:2:68: error: use of undeclared identifier 'th24vsdm41'
-   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
-                                                                     ^
-  input_line_83:2:80: error: use of undeclared identifier 'systs'
-   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
-                                                                                 ^
-  input_line_83:2:87: error: use of undeclared identifier 'both'
-   (MakeNus18FCCorrection_GRID(0.031925000000000002, 0.0110113, fhc, th24vsdm41, systs, both, -1))
-                                                                                        ^
-  error: No files matched the source url.ifdh cp failed at: Tue May 15 23:56:07 2018
-  >
-  > Tue May 15 23:56:07 UTC 2018 ./analysis.sh COMPLETED with exit status 1
-  
-  
   ## May 16th, 2018
+  
+  > /fife/local/scratch/uploads/nova/dphan/2018-05-16_132827.759967_4078
+  > 
+  > /fife/local/scratch/uploads/nova/dphan/2018-05-16_132827.759967_4078/analysis.sh_20180516_132828_1297652_0_1_.cmd
+  > 
+  > submitting....
+  > 
+  > Submitting job(s)..........
+  > 
+  > 10 job(s) submitted to cluster 7525896. 
+  > JobsubJobId of first job: 7525896.0@jobsub01.fnal.gov
+  > 
+  > Use job id 7525896.0@jobsub01.fnal.gov to retrieve output
+  
+  
   - [ ] Start studying the job division to lower the runtime for individual jobs.
   - [ ] Send production jobs.
 '''
