@@ -19,6 +19,11 @@
       "key": "0dc90324c6699db40788",
       "color": "#2BA5F7",
       "name": "FermiGRID"
+    },
+    {
+      "key": "0255a178144559fe13fd",
+      "color": "#E8D252",
+      "name": "Geant4"
     }
   ],
   "version": "1.0"
