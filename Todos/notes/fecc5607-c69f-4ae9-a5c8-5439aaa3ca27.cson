@@ -1,5 +1,5 @@
 createdAt: "2018-05-14T22:01:27.653Z"
-updatedAt: "2018-05-15T23:15:26.801Z"
+updatedAt: "2018-05-18T07:01:23.668Z"
 type: "MARKDOWN_NOTE"
 folder: "e82c60f64cdd7f513601"
 title: "Non-urgent"
@@ -11,7 +11,7 @@ content: '''
   ## May 14th, 2018
   - [ ] Write python modules to simplify the root drawings.
   - [x] Learn to write python class.
-  - [ ] Learn `G4Analysis`.
+  - [x] Learn `G4Analysis`.
   - [x] Quantum machanics. Chapter 1 (S. Weinberg).
   
   ## May 15th, 2018

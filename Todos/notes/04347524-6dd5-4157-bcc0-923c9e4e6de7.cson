@@ -1,12 +1,12 @@
 createdAt: "2018-05-14T15:51:53.665Z"
-updatedAt: "2018-05-17T18:45:30.498Z"
+updatedAt: "2018-05-18T07:00:43.492Z"
 type: "MARKDOWN_NOTE"
 folder: "1e2b9fc63bd9a422c26f"
 title: "Cerenkov Counter R&D Plan"
 content: '''
   # Cerenkov Counter R&D Plan
   List of deadlines
-  - [ ] Energy loss study: May 18th, 2018.
+  - [x] Energy loss study: May 18th, 2018.
   - [ ] Optical simulation: May 25th, 2018.
   - [ ] Complete FreeCAD design: May 31st, 2018.
   - [ ] Material preparing: June 20th, 2018.
@@ -18,15 +18,21 @@ content: '''
   
   ---
   
-  ## May 17, 2018
+  ## May 14, 2018
   Energy loss study
-  - [ ] Implement `G4Analysis` to analysis the beam loss at different energies and different particles.
-  - [ ] Study energy binning schemes.
+  - [x] Implement `G4Analysis` to analysis the beam loss at different energies and different particles.
+  - [x] Study energy binning schemes.
   
-  Plot to make
-  - [ ] Energy loss (in MeV) in terms of incoming energy (in MeV), each plot for a different particle.
-  - [ ] Percentage of energy loss in terms of incoming energy (in MeV), each plot for a different particle.
-  - [ ] Number of particle loss due to the small size of TOF in terms of incoming energy (in MeV), each plot for a different particle.
+  ## May 17, 2018
+  - [x] Energy loss (in MeV) in terms of incoming energy (in MeV), each plot for a different particle.
+  - [x] Percentage of energy loss in terms of incoming energy (in MeV), each plot for a different particle.
+  - [x] Number of particle loss due to the small size of TOF in terms of incoming energy (in MeV), each plot for a different particle.
+  
+  ## May 18, 2018
+  - [ ] Present energy loss study at UTKL meeting. Pass Karol's approval for Monday TestBeam meeting.
+  
+  ## May 21, 2018
+  - [ ] Monday Testbeam Meeting: present energy loss study. Discussing next step.
 '''
 tags: [
   "cerenkov"
